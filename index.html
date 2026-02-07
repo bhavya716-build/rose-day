@@ -4,11 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rose Day</title>
+    <style>
+        body {
+            background: linear-gradient(to right, #FFB6C1, #FF69B4);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        h1 {
+            color: white;
+            font-size: 3em;
+        }
+        .gallery {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        .gallery img {
+            width: 200px;
+            height: 200px;
+            border-radius: 15px;
+        }
+    </style>
 </head>
 <body>
     <h1>Happy Rose Day!</h1>
-    <img src="images/rose1.jpg" alt="Rose 1">
-    <img src="images/rose2.jpg" alt="Rose 2">
-    <img src="images/rose3.jpg" alt="Rose 3">
+    <div class="gallery">
+        <img src="images/rose1.jpg" alt="Rose 1">
+        <img src="images/rose2.jpg" alt="Rose 2">
+        <img src="images/rose3.jpg" alt="Rose 3">
+    </div>
 </body>
 </html>
